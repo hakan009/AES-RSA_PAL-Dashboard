@@ -60,6 +60,7 @@ UwIDAQAB
     $ext           = $info["extension"];
 
     if ($ext != "txt" && $ext != "docx" && $ext != "pptx") {
+    if ($ext != "txt" && $ext != "docx" && $ext != "pptx" && $ext != "pdf") {
         echo("<script language='javascript'>
         window.location.href='encrypt.php';
         window.alert('Maaf, file yang bisa dienkrip hanya word, excel, text, ppt ataupun pdf.');
