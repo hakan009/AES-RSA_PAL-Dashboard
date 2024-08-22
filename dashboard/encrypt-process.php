@@ -114,5 +114,5 @@ UwIDAQAB
         window.alert('Encrypt file mengalami masalah.');
         </script>");
     }
-}
+}}
 ?>
